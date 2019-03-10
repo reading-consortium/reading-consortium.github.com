@@ -1,0 +1,32 @@
+body {
+ width:70ch;
+ margin:auto;
+ margin-top:50px
+}
+
+/* Header */
+header {
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+header h2 {
+	display:inline;
+}
+nav {
+	display:inline;
+	float:right;
+}
+
+/* Table */
+table,th,td {
+	border-bottom:1px solid black;
+	border-collapse:collapse;
+}
+th,td {
+	vertical-align:top;
+	padding:5px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
