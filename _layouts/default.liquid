@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <header>
+      {% if page.data and page.data.header %}
+      <h2>{{ page.data.header }}</h2>
+      {% endif %}
+      {% if page.data and page.data.show_nav %}
+      <nav><a href="{{ site.base_url }}">home</a></nav>
+      {% endif %}
+    </header>
+    <div>
+      {{ page.content }}
+    </div>
+  </body>
+</html>

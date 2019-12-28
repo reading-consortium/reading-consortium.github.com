@@ -1,0 +1,69 @@
+{% comment %}
+Since we're still in markdown mode, we can't indent our html too far or else it
+turns into a code block.
+If https://github.com/cobalt-org/cobalt.rs/issues/342 were fixed, we might be able to switch into liquid mode and be happier
+{% endcomment %}
+
+<div class="flextable">
+
+<div class="flexrow flexth">
+ <div class="flextd2">
+  Meeting
+ </div>
+ <div class="flextd8">
+  Topics
+ </div>
+</div>
+
+{% for meeting in meetings %}
+{% assign meeting = meeting %}
+<div class="flexrow meeting">
+ <div class="flextd2">
+  {{ meeting.date }}
+ </div>
+
+ <div class="flextd8">
+
+ {% if meeting.readings %}
+ <div class="flextdcol">
+  <span class="tcol-list-title">Readings</span>
+  <ul>
+  {% for reading in meeting.readings %}
+   <li> {{ reading }} </li>
+  {% endfor %}
+  </ul>
+ </div>
+ {% endif %}
+
+ {% if meeting.exercises %}
+ <div class="flextdcol">
+  <span class="tcol-list-title">Exercises</span>
+  <ul>
+  {% for el in meeting.exercises %}
+   <li> {{ el }} </li>
+  {% endfor %}
+  </ul>
+ </div>
+ {% endif %}
+
+ {% if meeting.additional_discussion %}
+ <div class="flextdcol">
+  <span class="tcol-list-title">Additional Discussion</span>
+  <ul>
+  {% for el in meeting.additional_discussion %}
+   <li> {{ el }} </li>
+  {% endfor %}
+  </ul>
+ </div>
+ {% endif %}
+
+ {% if meeting.topic_raw %}
+  {{ meeting.topic_raw }}
+ {% endif %}
+
+ </div>
+
+ </div>
+
+{% endfor %}
+</div>
