@@ -10,7 +10,7 @@ programming or mathematics.
 
 Anyone is welcome to join if they're interested. See below for how to get in touch!
 
-### Currently Reading &mdash; Rust
+### Currently Reading: Rust
 
 Right now we're working through rust-related readings.
 
