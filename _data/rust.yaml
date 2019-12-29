@@ -1,6 +1,6 @@
 - date: "2020/01/06"
   readings:
-  - "PR &sect; 4"
+    - "PR &sect; 4: Ownership"
   additional_discussion:
   - "Rust CLI libraries"
   - "Show and tell: Fractals!"
