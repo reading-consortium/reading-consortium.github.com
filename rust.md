@@ -32,7 +32,7 @@ The below topics haven't been covered yet, but may be good additional topics to 
 
 * Skiplists
 * Dynamic Programming
-* Greedy Algorithms / A
+* Greedy Algorithms / A\*
 * Greedy Algorithms / NP-Completeness / Approximate Algorithms
 * Graph Algorithms
 * Linear Programming
