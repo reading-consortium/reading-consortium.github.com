@@ -17,7 +17,7 @@ If https://github.com/cobalt-org/cobalt.rs/issues/342 were fixed, we might be ab
 
 {% for meeting in meetings %}
 {% assign meeting = meeting %}
-<div class="flexrow meeting">
+<div class="flexrow meeting" id="{{ meeting.date }}">
  <div class="flextd2">
   {{ meeting.date }}
  </div>
