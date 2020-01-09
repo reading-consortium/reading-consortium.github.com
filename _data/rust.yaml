@@ -5,6 +5,14 @@
   - "Rust CLI libraries"
   - "Show and tell: Fractals!"
 
+- date: "2020/01/20"
+  readings:
+  - "PR &sect; 5: References"
+  - '<a href="https://doc.rust-lang.org/1.15.1/book/choosing-your-guarantees.html">TRPL: Choosing your Guarantees</a>'
+  - 'Read section 2: An Introduction to Rust from the <a href="https://plv.mpi-sws.org/rustbelt/stacked-borrows/paper.pdf">Stacked Borrows paper</a>'
+  exercises:
+  - 'Create a <a href="https://github.com/brhoades/rusty-planets-skel">veritable solar system</a>! Implement the gravity and velocity portions of a small planet simulation.'
+
 - date: 'Schedule gap'
   topic_raw: |-
     The Reading Consortium took a break here. <br />
