@@ -1,8 +1,17 @@
+- date: "2020/03/16"
+  readings:
+    - "PR &sect; 7: Error Handling"
+    - "TBD, related to:"
+    - "https://github.com/dtolnay/thiserror"
+    - "https://github.com/dtolnay/anyhow"
+    - "https://github.com/rust-lang-nursery/error-chain"
+    - "https://github.com/rust-lang-nursery/failure"
+  exercises:
+    - "TBD"
+
 - date: "2020/02/17 <strike>2020/02/03</strike>"
   readings:
-  - "PR &sect; 6: Expressions"
-  exercises:
-  - TBD
+    - "PR &sect; 6: Expressions"
 
 - date: "2020/01/20"
   readings:
